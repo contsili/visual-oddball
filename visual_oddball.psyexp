@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.1.1">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="visual_oddball" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="visual_stimulus" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$imageFile" valType="file" updates="set every repeat" name="image"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="visual_stimulus" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.3, 0.3)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$stimDuration" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <CodeComponent name="code_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="current_block = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Increment counter at the beginning of each trial&amp;#10;trialnr = trials.thisN&amp;#10;&amp;#10;stimulus_pulse_started = False&amp;#10;stimulus_pulse_ended = False&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# Hardware triggers for TMSI APEX EEG&amp;#10;if visual_stimulus.status == STARTED and not stimulus_pulse_started:&amp;#10;    win.callOnFlip(ser.write, f&quot;{marker:02d}&quot;.encode())&amp;#10;    stimulus_pulse_start_time = globalClock.getTime()&amp;#10;    stimulus_pulse_started = True&amp;#10;&amp;#10;if stimulus_pulse_started and not stimulus_pulse_ended:&amp;#10;    if globalClock.getTime() - stimulus_pulse_start_time &gt;= 0.02:&amp;#10;        win.callOnFlip(ser.write, &quot;00&quot;.encode())&amp;#10;        stimulus_pulse_ended = True&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# Check if we've completed 150 trials (a block)&amp;#10;if (trials.thisN + 1) % 150 == 0 and trials.thisN &lt; trials.nTotal - 1:&amp;#10;    # Set a flag to show the break&amp;#10;    expInfo['show_break'] = True&amp;#10;else:&amp;#10;    expInfo['show_break'] = False&amp;#10;    &amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="trialnumber" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="trialnumber" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.60, 0.45)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$isi + stimDuration" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;%d&quot; % trialnr" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="crosshair" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.15" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="crosshair" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$stimDuration" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$isi + stimDuration" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SerialOutComponent name="serialPort" plugin="None">
+        <Param val="115200" valType="int" updates="None" name="baudrate"/>
+        <Param val="8" valType="int" updates="None" name="bytesize"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="None" name="getResponse"/>
+        <Param val="serialPort" valType="code" updates="None" name="name"/>
+        <Param val="N" valType="str" updates="None" name="parity"/>
+        <Param val="COM8" valType="str" updates="None" name="port"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="$str(marker)" valType="str" updates="None" name="startdata"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="1" valType="int" updates="None" name="stopbits"/>
+        <Param val="'&quot;0&quot;'" valType="str" updates="None" name="stopdata"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="int" updates="None" name="timeout"/>
+      </SerialOutComponent>
+    </Routine>
+    <Routine name="instructions">
+      <RoutineSettingsComponent name="instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_norm" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_norm" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You'll see visual stimuli (circles) presented one at a time. There are two different stimuli: a white circle (standard) and a black circle (deviant). You will be presented with a total of 300 trials split into 2 blocks.&amp;#10;&amp;#10;Your task is to count the number of times you see the black circle (deviant stimulus). At the end of each block, you will report how many black circles you counted.&amp;#10;&amp;#10;A fixation cross (+) will appear between stimuli. Try to keep your eyes centered, sit as still as possible, and minimize blinking during stimulus presentation. You'll get time to rest between blocks.&amp;#10;&amp;#10;Press SPACE to start the experiment." valType="str" updates="constant" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.8" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_instruct" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_instruct" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="text_align" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Code components should usually appear at the top&amp;#10;# of the routine. This one has to appear after the&amp;#10;# text component it refers to.&amp;#10;text_norm.alignText= 'left'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="// Code component set to Both&amp;#10;text_norm.setAlignHoriz('left')" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="text_align" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="code_3" plugin="None">
+        <Param val="# LSL (Lab Streaming Layer) for real-time data streaming&amp;#10;# Uncomment if using LSL with external recording software&amp;#10;# from pylsl import StreamInfo, StreamOutlet&amp;#10;# info = StreamInfo('Trigger', 'Markers', 1, 0, 'string', 'myuidw43536')&amp;#10;# outlet = StreamOutlet(info)&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Initialize the break flag&amp;#10;expInfo['show_break'] = False&amp;#10;&amp;#10;# Serial port for hardware triggers to TMSI APEX EEG&amp;#10;import serial&amp;#10;ser = serial.Serial(&quot;COM8&quot;, 115200, timeout=1)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="# OxySoft event marker - uncomment if using OxySoft&amp;#10;# oxysoft.WriteEvent(&quot;E&quot;, &quot;Experiment ended in PsychoPy&quot;)" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="break_2">
+      <RoutineSettingsComponent name="break_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="break_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_norm_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_norm_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Any text&amp;#10;&amp;#10;including line breaks&amp;#10;&amp;#10;This text component is white, so change the colour if you have a white background. It does not save the onset and offset time, but has been left justified with a wrap width of 1.8 norm units.&amp;#10;&amp;#10;Press the spacebar to continue" valType="str" updates="constant" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.8" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_instruct_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_instruct_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="text_align_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Code components should usually appear at the top&amp;#10;# of the routine. This one has to appear after the&amp;#10;# text component it refers to.&amp;#10;text_norm.alignText= 'left'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="// Code component set to Both&amp;#10;text_norm.setAlignHoriz('left')" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="text_align_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="end">
+      <RoutineSettingsComponent name="end" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="end" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_norm_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_norm_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Done!" valType="str" updates="constant" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.8" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_instruct_3" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_instruct_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="text_align_3" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Code components should usually appear at the top&amp;#10;# of the routine. This one has to appear after the&amp;#10;# text component it refers to.&amp;#10;text_norm.alignText= 'left'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="// Code component set to Both&amp;#10;text_norm.setAlignHoriz('left')" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="text_align_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="code_4" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="# Close serial port for TMSI APEX EEG&amp;#10;ser.close()" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="# ser.write(bytes(b&quot;00&quot;))&amp;#10;# ser.close()&amp;#10;" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="pause">
+      <RoutineSettingsComponent name="pause" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="pause" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Experiment starting in 2 seconds" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="block_break">
+      <RoutineSettingsComponent name="block_break" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="block_break" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_norm_4" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_norm_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Have some rest, blink etc. then press SPACE to continue." valType="str" updates="constant" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.8" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_instruct_4" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_instruct_4" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="text_align_4" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Code components should usually appear at the top&amp;#10;# of the routine. This one has to appear after the&amp;#10;# text component it refers to.&amp;#10;text_norm.alignText= 'left'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="// Code component set to Both&amp;#10;text_norm.setAlignHoriz('left')" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="text_align_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="current_block = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="this_block = Number.parseInt(block);&amp;#10;if ((this_block !== current_block)) {&amp;#10;    current_block = this_block;&amp;#10;    if ((trials.thisN &gt; 0)) {&amp;#10;        continueRoutine = false;&amp;#10;    } else {&amp;#10;        continueRoutine = true;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Skip this routine if it's not time for a break&amp;#10;if not expInfo.get('show_break', False):&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="verwe">
+      <RoutineSettingsComponent name="verwe" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="verwe" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <Routine name="pause"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5674900247173253)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.381294573001352)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.6278474533689744)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4126661267059517)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.838987939785518)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7128624836689514)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.462350941224749)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.803521159492555)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.21650263057787)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.038591906143857)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1378702714593136)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.290164967006727)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9952744813321672)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.948894147578616)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.600377611093191)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7805847457754105)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.6939341583752343)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.032003299269121)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.4322166205327758)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4416861717526013)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5932592135563466)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6580141673564985)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.585173667773727)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5219192442337386)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0385557335052784)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.986167410448063)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.635326543550877)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2169971890168143)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.786319768856413)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.891344271713052)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4840666665826703)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1996448910911024)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0561934723621)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8505471599211263)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.9099939577479783)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.681405547068822)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8712985241310154)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9850739182917403)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.186687701783687)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.178182138821617)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.802103867375143)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.511952699201794)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.336506394442514)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9026101028618427)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.612592345683396)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0479205990571248)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2172039718234653)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7078971958533824)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7497422887512064)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.620035382905729)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4810218772997232)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.135635068416267)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0114630675448546)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.299316746384889)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9583869420101565)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8155781400043742)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2183468400531545)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.746413027792806)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.752141776407361)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7376686911984818)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.374053903374774)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0651896966568413)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4981608152215014)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.291448851741141)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8998078494223973)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8159506639814054)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.217280187135099)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.352877404932871)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.768016546040501)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.7265396525781127)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.273436141205292)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.5517528979981328)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6160051528991124)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0375690701348885)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.099162351865356)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.323507416610416)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.740483950727476)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6465893853400173)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2456056214752063)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.215157537588487)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.698392710829756)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.818550837107185)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.158904534421068)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.954218725712116)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.523587855097402)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.420344225383577)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5692823043163617)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3788068871711445)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4312349883476063)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4834200495800407)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.496574197246764)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.019508711788758)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.362767267537912)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.82897402449984)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.619455860262861)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.595345121826468)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3032341932343616)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2927827098928093)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.164525265042471)), ('marker', np.int64(2)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9419025333103783)), ('marker', np.int64(1)), ('block', np.int64(1))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4436138892191823)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.5401169277632167)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7659586516071544)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1393197373986723)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.455385392482184)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.97706676526484)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2912004184455714)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.582248102154748)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.513422709061217)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.709088023030444)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.9418199550317783)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.913106593575587)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.154457938289293)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.781297982809848)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.73462334962767)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0361917558661684)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.152681706585513)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4007468811610893)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9299614413068387)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6633046631350386)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.894905756496801)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.566554150252694)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.116761742095959)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.267852898196944)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1310746710583093)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.980297636077723)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.275641769432733)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.527241726636116)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6668215134891384)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.71608955076162)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0947239747595923)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.883609589202939)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7954215010706207)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.296202106156777)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.524912140599836)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.058091723416167)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.404590989529992)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1972183293514966)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.825389935304349)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.400318912844902)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9763379005704684)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0167150536599)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7338706418921097)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.553584060174491)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.126173567173367)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.617223099260688)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.877901814067368)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.845274010487432)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.578999218769892)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.691502294072076)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.403529800930009)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.7782090995852755)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.888425138880602)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.39664124738399)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.6596657112422117)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.840959712571076)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.419240422855253)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3462518262735923)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3001543689907997)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.92469664016333)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2460807550983786)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.190929650041727)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6368925215868604)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.317175501211145)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.332528569217017)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.214431922987372)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1352850891794857)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.072929169794291)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1073293306425422)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.4183567534814223)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6074028648494387)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.823888762488376)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.98713894162866)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5487085150816755)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.069728296577063)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.6164716409285105)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1503693643621973)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.301051443309295)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6512020177236426)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4397379099738616)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7328617000046167)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.959875263197248)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.272831304074686)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6749656276186364)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5806642585793806)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.480702127470685)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.528703052856887)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.593574077394778)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3843883910616475)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2214557332238165)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.45710590859918)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.218829592508912)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4435066150393068)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6820407041810053)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8103785177996192)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.209512333779077)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.836269354648578)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7469213121837286)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.9686362635296275)), ('marker', np.int64(2)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5443162469604)), ('marker', np.int64(1)), ('block', np.int64(2))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9551897877855)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.9046109014557686)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.811445424994889)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.176746390483654)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9996630174309296)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.924985627781139)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.475759845574256)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.531843562252342)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5334095060123776)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.071866910547693)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.856688253699985)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.226892261449396)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.026078352679635)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.044893579547625)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.686878563683424)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.400942727630444)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.155964269916339)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1113538941947194)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.3168123539274657)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0135274116665305)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.303102268731433)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.471900307549181)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.419140130191766)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1058304602141105)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.404288450075562)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.97981035002519)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7523173867335298)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.736242252211581)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7155564049177063)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.804771833225802)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8798890163575592)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.63388268418517)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8636611009490838)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.315765601573768)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8985254690034745)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.532080114128904)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.854619462536653)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.518576178802109)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.97887402836668)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4096871198104552)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.696927586831449)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.919526650933113)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.81543554188844)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5810759109269643)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1539465173055032)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9195513915444726)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.545003070073422)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5567802880304087)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6985759901792097)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6559596016355926)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0841728948274096)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.779503752688192)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2751058108298774)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.9296576753068626)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.686875362473669)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7451825329184905)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.893664043052634)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4645334590507915)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.120295893673941)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.347401526743757)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.992931382190964)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8205147133226625)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.3849126783632904)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.617473234099923)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.191984584997785)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.335096803432912)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.828782484782376)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.375356122782396)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.6703981137623645)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.718298105579957)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5266030729909024)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2699346775603915)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.086218375890021)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.119529671045755)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4730443106470306)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.3243991294361432)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6249452499177224)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.156893551788782)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2411610691423927)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6589083381642347)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2594431246758138)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.058032289584178)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.682438565779876)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.297295062466898)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.964717208596992)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6989294433915143)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6592689401730683)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.343951393041368)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.884425410026212)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2468007749798)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.616144804878386)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.911606325138627)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.086372001689692)), ('marker', np.int64(2)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.755626452744735)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.507157184099486)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.223036815566748)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.96522736917945)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.277771561971216)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.80569077183934)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9363822111346694)), ('marker', np.int64(1)), ('block', np.int64(3))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.190819043520876)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5489102849720453)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4638557889004926)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7848953072255638)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0697762712063184)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.64369440533587)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4946480610160666)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6289417758821894)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.57293845251186)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.795175982999083)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.498508155821422)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1207128203139995)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.77381247763374)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.044548505028517)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.219734383273741)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.987189715158593)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.768008797707284)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.86661732497696)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0979941493479384)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.10468450237259)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.868448955516057)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4792749572108748)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.326059860480417)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9939838982365337)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.8983834235243893)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0973463413787603)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.383194134005909)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3720940923274423)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.10872446376612)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6935863038114163)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.88424522396527)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.199009962877576)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.626514508930325)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0019333663258148)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.435191310838306)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.605646819784961)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.32205584614191)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7385879873706838)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.083392813983779)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.6948863234028058)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.625721806520374)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.717462023285651)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0402992925770707)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.099340718666703)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.51004842313776)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.422894980821996)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4976220975365537)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.549597221092931)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5064465585816995)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.637795220800957)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.722684313211332)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1170428145911537)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9635889508459083)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.70791759866109)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.057774933961708)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1782282773745543)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.852825728219241)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.800799181255738)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.679785530842241)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7475450316140577)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.415211545346707)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.494691300170583)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.697633956502549)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.322967102193505)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1969911534173736)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3804489499893373)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.0049278773542336)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6780912958838208)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.5140110973727063)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.865120558280584)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.6221625888429374)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8876718516171813)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.681337447474929)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1256259927231893)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.80003336658974)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2671307025816634)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.166026645909789)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3046292107918926)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6945409457854184)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.573601318576674)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.8923544977989093)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4385668862049625)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.250517067191301)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.372211736505758)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.343697045292779)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.355632494831854)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.03736301947954)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5976401198148187)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9807340502016197)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.175062290873281)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.498412147243698)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.914183765135362)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.758669145583492)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.12586942670888)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.294022386469008)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7679775202156174)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.497249202306874)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.9095098628425315)), ('marker', np.int64(2)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4622080563348567)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9086749271949808)), ('marker', np.int64(1)), ('block', np.int64(4))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.071099949292209)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.297728824851159)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1487232926448585)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2403941008521806)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.687104062603868)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.146463834037003)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4337331996299865)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2521575005848256)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.355893590838712)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.769208968459828)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.773892537063213)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6363437022270704)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.399694860628298)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.829313869437587)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.753610998777376)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.459642455153518)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7952042376014896)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.213837383813728)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.550234628951716)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.561992731053338)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.449406936170308)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.628641324504691)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.723298595043153)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.137749802921358)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3495115945675296)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.062929978171593)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.989316022972581)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1955639412589605)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.545009259386169)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4423831285379025)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0173878222276245)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.842869934231851)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.795867608522385)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.2923171274237566)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.723819004382428)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.216493209437484)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.284549018282598)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6064890034519337)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.868865017501054)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9988353303162274)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.850136870805996)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.9023226915267712)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.135817700599441)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6364431033678843)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.310276024589096)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.290979964986424)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.489226205644414)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0878989009590505)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.18117385508242)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.174890668716065)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6335340042033724)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.950004805456833)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.433663337469948)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7081833884683557)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.228768108057292)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.372109772320427)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5368290761935577)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2415147738648438)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.610239270557705)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.589380069230945)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.140166495531947)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.2239441273558467)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.50407282825023)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.661489692179786)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.591637040061803)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.1976463874926617)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.343514640983685)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.371682936517203)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.6054521718872223)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.908492153493184)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.175890323863914)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.470889524424844)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.772272861423085)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.5731799684327363)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.593051640137043)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.866189735135465)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.4829475300968094)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.940365550379348)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.010987720200922)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.3857147323837715)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.178982178382313)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.241813177239814)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.407396676945481)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.2765615610347125)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.880070226464765)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0946055453131294)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.55333984548525)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.19602580309987)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.9855984216047458)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.7194036072280285)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.39111400224556)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.255918084156458)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.8445333466122515)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0524275198313653)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.0326697572765955)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'deviant.wav'), ('trialType', 'deviant'), ('isi', np.float64(2.0279164924684268)), ('marker', np.int64(2)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.589258750841103)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.55107614685207)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.469480657960984)), ('marker', np.int64(1)), ('block', np.int64(5))]), OrderedDict([('soundFile', 'standard.wav'), ('trialType', 'standard'), ('isi', np.float64(2.005215536557741)), ('marker', np.int64(1)), ('block', np.int64(5))])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="oddball_conditions.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="block_break"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>

@@ -2,13 +2,15 @@ import pandas as pd
 import random
 import numpy as np
 
-# Parameters
-n_blocks = 5
-trials_per_block = 100
+# Parameters for 10-minute visual oddball experiment
+n_blocks = 2
+trials_per_block = 150  # 300 total trials across 2 blocks
 standard_ratio = 0.85
 deviant_ratio = 0.15
-isi_mean = 2.5
-isi_jitter = 0.5
+# For visual stimuli: shorter ISI and stimulus duration
+stimulus_duration = 0.5  # 500ms stimulus presentation
+isi_mean = 1.5  # 1.5 second average ISI
+isi_jitter = 0.3  # +/- 300ms jitter
 
 # Function to generate trial sequence for a block
 def generate_block_sequence(block_num):
@@ -41,13 +43,15 @@ def generate_block_sequence(block_num):
     # Create trial list
     trials = []
     for i in range(trials_per_block):
-        sound_file = 'standard.wav' if sequence[i] == 'standard' else 'deviant.wav'
+        # Use image files for visual stimuli (white = standard, black = deviant)
+        image_file = 'white_visual.png' if sequence[i] == 'standard' else 'black_visual.png'
         marker_value = 1 if sequence[i] == 'standard' else 2
         
         trials.append({
-            'soundFile': sound_file,
+            'imageFile': image_file,
             'trialType': sequence[i],
             'isi': isis[i],
+            'stimDuration': stimulus_duration,
             'marker': marker_value,
             'block': block_num
         })
@@ -63,6 +67,9 @@ for block in range(1, n_blocks + 1):
 # Create a DataFrame
 df = pd.DataFrame(all_trials)
 
-# Save to CSV
-df.to_csv(r'c:\temp\oddball_conditions.csv', index=False)
+# Save to CSV in the current directory
+df.to_csv('oddball_conditions.csv', index=False)
 print(f"Created conditions file with {len(df)} trials")
+print(f"Total blocks: {n_blocks}")
+print(f"Trials per block: {trials_per_block}")
+print(f"Estimated duration: ~{len(df) * (stimulus_duration + isi_mean) / 60:.1f} minutes")
