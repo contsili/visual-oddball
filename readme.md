@@ -9,9 +9,12 @@
 
 ### Prepare the PCs for the hands-on
 User app:
-- Download and install, psychopy the APEX driver and APEX User app.
+- Download and install, BESA, psychopy the APEX driver and APEX User app.
 - Connect the APEX device via USB cable. In Device Manager, verify that 'TMSi USB Devices' appears. 
 - If not, reinstall the driver OR connect via dongle/bluetooth.
+
+Configure the triggers: 
+- Open the usb TTL app, click on some triggers till the red lamp on the hardware turns off. Then close the usb TTL app and you are ready to start the experiment.
 
 Configure psychopy:
 - Set the correct COM port for APEX in the PsychoPy experiment settings (match the port shown in Device Manager).
@@ -46,9 +49,9 @@ Documentation:
 ## 📁 Required Files
 
 ✅ **visual_oddball.psyexp** - Main experiment  
-✅ **oddball_conditions.csv** - Trial sequence  
-✅ **white_visual.png** - Standard stimulus  
-✅ **black_visual.png** - Deviant stimulus  
+✅ **generate_trial_csv/oddball_conditions.csv** - Trial sequence  
+✅ **generate_visual_stimuli/white_visual.png** - Standard stimulus  
+✅ **generate_visual_stimuli/black_visual.png** - Deviant stimulus  
 
 ---
 
@@ -92,7 +95,7 @@ Columns include:
 ## ⚙️ Customization
 
 ### Experiment parameters
-To modify experiment parameters, edit `generate_trial_csv.py`:
+To modify experiment parameters, edit `generate_trial_csv/generate_trial_csv.py`:
 - `n_blocks` - Number of blocks
 - `trials_per_block` - Trials per block
 - `standard_ratio` - Proportion of standard trials (0-1)
@@ -102,11 +105,12 @@ To modify experiment parameters, edit `generate_trial_csv.py`:
 
 After editing, run:
 ```powershell
+cd generate_trial_csv
 python generate_trial_csv.py
 ```
 
 ### Change colors of the circles:
-Edit `generate_visual_stimuli.py`:
+Edit `generate_visual_stimuli/generate_visual_stimuli.py`:
 ```python
 create_circle_stimulus('white_visual.png', color='white')
 create_circle_stimulus('black_visual.png', color='red')  # Any color
@@ -114,7 +118,9 @@ create_circle_stimulus('black_visual.png', color='red')  # Any color
 
 Then run:
 ```powershell
+cd generate_visual_stimuli
 python generate_visual_stimuli.py
+cd ../generate_trial_csv
 python generate_trial_csv.py
 ```
 

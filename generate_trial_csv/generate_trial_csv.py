@@ -44,7 +44,10 @@ def generate_block_sequence(block_num):
     trials = []
     for i in range(trials_per_block):
         # Use image files for visual stimuli (white = standard, black = deviant)
-        image_file = 'white_visual.png' if sequence[i] == 'standard' else 'black_visual.png'
+        if sequence[i] == 'standard':
+            image_file = 'generate_visual_stimuli/white_visual.png'
+        else:
+            image_file = 'generate_visual_stimuli/black_visual.png'
         marker_value = 1 if sequence[i] == 'standard' else 2
         
         trials.append({
@@ -68,7 +71,7 @@ for block in range(1, n_blocks + 1):
 df = pd.DataFrame(all_trials)
 
 # Save to CSV in the current directory
-df.to_csv('oddball_conditions.csv', index=False)
+df.to_csv('generate_trial_csv/oddball_conditions.csv', index=False)
 print(f"Created conditions file with {len(df)} trials")
 print(f"Total blocks: {n_blocks}")
 print(f"Trials per block: {trials_per_block}")

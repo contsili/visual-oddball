@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.1.1),
-    on October 09, 2025, at 10:55
+    on October 09, 2025, at 13:31
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -777,7 +777,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('oddball_conditions.csv'), 
+        trialList=data.importConditions('generate_trial_csv/oddball_conditions.csv'), 
         seed=None, 
     )
     thisExp.addLoop(trials)  # add the loop to the experiment
