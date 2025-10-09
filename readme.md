@@ -8,19 +8,25 @@
 **Deviant**: Black circle (15%)  
 
 ### Prepare the PCs for the hands-on
-User app:
+1. Download code from github
+
+2. User app:
 - Download and install, BESA, psychopy the APEX driver and APEX User app.
 - Connect the APEX device via USB cable. In Device Manager, verify that 'TMSi USB Devices' appears. 
 - If not, reinstall the driver OR connect via dongle/bluetooth.
 
-Configure the triggers: 
-- Open the usb TTL app, click on some triggers till the red lamp on the hardware turns off. Then close the usb TTL app and you are ready to start the experiment.
+3. Configure the triggers: 
+- Set the usb TTL timing to 1 ms via the device manager>COM ports>open properties>bits per second to 115200, then go Advanced>Latency timer to 1 ms.
+- Open the USB TTL application.
+- Click through the available triggers until the red indicator light on the hardware turns off.
+- Once the light is off, close the USB TTL application.
+- You can begin now the experiment woth psychopy.
 
-Configure psychopy:
+4. Configure psychopy:
 - Set the correct COM port for APEX in the PsychoPy experiment settings (match the port shown in Device Manager).
 - Select the appropriate audio output (speaker) for stimulus playback in PsychoPy.
 
-Documentation:
+5. Documentation:
 - Find the APEX manual, driver, and User app at: \\192.168.30.3\data$\SALES\TMSi\Software\APEX\APEX User package
 
 
