@@ -7,6 +7,20 @@
 **Standard**: White circle (85%)  
 **Deviant**: Black circle (15%)  
 
+### Prepare the PCs for the hands-on
+User app:
+- Download and install, psychopy the APEX driver and APEX User app.
+- Connect the APEX device via USB cable. In Device Manager, verify that 'TMSi USB Devices' appears. 
+- If not, reinstall the driver OR connect via dongle/bluetooth.
+
+Configure psychopy:
+- Set the correct COM port for APEX in the PsychoPy experiment settings (match the port shown in Device Manager).
+- Select the appropriate audio output (speaker) for stimulus playback in PsychoPy.
+
+Documentation:
+- Find the APEX manual, driver, and User app at: \\192.168.30.3\data$\SALES\TMSi\Software\APEX\APEX User package
+
+
 ---
 
 ## 📋 Trial Timing
@@ -91,7 +105,7 @@ After editing, run:
 python generate_trial_csv.py
 ```
 
-### Change colors:
+### Change colors of the circles:
 Edit `generate_visual_stimuli.py`:
 ```python
 create_circle_stimulus('white_visual.png', color='white')
