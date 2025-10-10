@@ -2,15 +2,15 @@ import pandas as pd
 import random
 import numpy as np
 
-# Parameters for 10-minute visual oddball experiment
+# Parameters for 9-minute visual oddball experiment
 n_blocks = 2
 trials_per_block = 150  # 300 total trials across 2 blocks
 standard_ratio = 0.85
 deviant_ratio = 0.15
 # For visual stimuli: shorter ISI and stimulus duration
 stimulus_duration = 0.5  # 500ms stimulus presentation
-isi_mean = 1.5  # 1.5 second average ISI
-isi_jitter = 0.3  # +/- 300ms jitter
+isi_mean = 1.3  # 1.3 second average ISI
+isi_jitter = isi_mean/8  # +/- 162ms jitter
 
 # Function to generate trial sequence for a block
 def generate_block_sequence(block_num):
