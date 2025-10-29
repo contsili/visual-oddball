@@ -1,6 +1,6 @@
 # Quick Reference - Visual Oddball Experiment
 
-## 🎯 Experiment at a Glance
+## Experiment at a Glance
 
 **Task**: Count the BLACK circles  
 **Duration**: ~10 minutes  
@@ -24,7 +24,7 @@
 
 4. Configure psychopy:
 - Set the correct COM port for APEX in the PsychoPy experiment settings (match the port shown in Device Manager).
-- Select the appropriate audio output (speaker) for stimulus playback in PsychoPy.
+- Click on the trials button in the flow and make sure it points to Conditions: generate_trial_csv/oddball_conditions.csv
 
 5. Documentation:
 - Find the APEX manual, driver, and User app at: \\192.168.30.3\data$\SALES\TMSi\Software\APEX\APEX User package
@@ -32,7 +32,7 @@
 
 ---
 
-## 📋 Trial Timing
+## Trial Timing
 
 ```
 ┌─────────────────────────────────────┐
@@ -52,7 +52,7 @@
 
 ---
 
-## 📁 Required Files
+## Required Files
 
 ✅ **visual_oddball.psyexp** - Main experiment  
 ✅ **generate_trial_csv/oddball_conditions.csv** - Trial sequence  
@@ -61,7 +61,7 @@
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### In PsychoPy Builder:
 1. Open `visual_oddball.psyexp`
@@ -74,7 +74,7 @@ python visual_oddball_lastrun.py
 
 ---
 
-## 🎨 Visual Design
+## Visual Design
 
 - **Background**: Gray (PsychoPy default)
 - **Circles**: Transparent background PNG
@@ -83,7 +83,7 @@ python visual_oddball_lastrun.py
 
 ---
 
-## 📊 Data Output
+## Data Output
 
 Location: `data/` folder  
 Format: `PARTICIPANTID_visual_oddball_DATE.csv`
@@ -98,7 +98,7 @@ Columns include:
 
 ---
 
-## ⚙️ Customization
+## Customization
 
 ### Experiment parameters
 To modify experiment parameters, edit `generate_trial_csv/generate_trial_csv.py`:
@@ -132,7 +132,7 @@ python generate_trial_csv.py
 
 ---
 
-## 📞 Quick Stats
+## Quick Stats
 
 - **300 trials** total
 - **2 blocks** of 150 trials each
