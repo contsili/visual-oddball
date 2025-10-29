@@ -156,3 +156,5 @@ python generate_trial_csv.py
   - psychopy
   - serial (pyserial) - only if using EEG triggers
 
+## XDF pre recorderd file
+You can find my XDF file here: https://drive.google.com/file/d/1ib8sTNB_I-PL-fMhbeGPImGRDXeod1AS/view?usp=sharing
