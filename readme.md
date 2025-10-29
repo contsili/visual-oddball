@@ -23,6 +23,7 @@
 - You can begin now the experiment woth psychopy.
 
 4. Configure psychopy:
+- Make sure builder opens when you double click visual_oddball.psyexp
 - Set the correct COM port for APEX in the PsychoPy experiment settings (match the port shown in Device Manager).
 - Click on the trials button in the flow and make sure it points to Conditions: generate_trial_csv/oddball_conditions.csv
 
